@@ -206,7 +206,7 @@ public class ProgressDTO {
             if ("Workshops/Bootcamps".equals(dto.getTemplate())) {
                 progress.setWorkshopName(dto.getWorkshopName());
                 progress.setDuration(dto.getDuration());
-                progress.setProvider(dto.getProvider());  // Set provider for Workshops/Bootcamps
+                progress.setProvider(dto.getProvider());
             } else {
                 progress.setWorkshopName(null);
                 progress.setDuration(null);
